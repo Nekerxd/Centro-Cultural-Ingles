@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Centro Cultural Inglês</title>
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Fechar Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Fechar Menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="index.html">Centro Cultural <highlight>Inglês</highlight></a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Nossos Serviços</a></li>
+                    <li><a href="about-us.html">Sobre Nós</a></li>
+                    <li><a href="balanced-scorecard.html">Balanced Scorecard</a></li>
+                    <li><a href="compliance.html">Compliance</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section-size">
+        <div class="main-content intro-content">
+
+            <div class="intro-text-content">
+                <h2>Compliance</h2>
+                <p>No Centro Cultural Inglês, a ética, a transparência e a responsabilidade social são pilares fundamentais da nossa cultura. Estamos comprometidos em conduzir nossas atividades de acordo com os mais altos padrões éticos e legais.</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/compliance.svg" alt="Logo de HTML, CSS e JavaScript.">
+            </div>
+        </div>
+    </section>
+
+    <section id="compliance" class="white-bg section-size">
+        <div class="main-content top3-content">
+            <h3>Cultura Corporativa</h3>
+            <p>
+                Cultivamos uma cultura corporativa baseada na ética, no respeito e na colaboração. Acreditamos que um ambiente de trabalho positivo e inspirador é fundamental para o sucesso de nossa escola e para o bem-estar de nossos colaboradores.
+            </p>
+
+            <h3>Nossas Normas Éticas</h3>
+            <ul>
+                <li>Integridade e honestidade em todas as nossas ações.</li>
+                <li>Respeito e valorização das diferenças individuais de nossos alunos, colaboradores e parceiros.</li>
+                <li>Compromisso com a qualidade e excelência em nossos serviços.</li>
+                <li>Conduta ética e transparente em nossas relações comerciais.</li>
+                <li>Proteção e privacidade de dados de nossos alunos e colaboradores em conformidade com a LGPD (Lei Geral de Proteção de Dados).</li>
+            </ul>
+
+            
+            <h3>Sustentabilidade</h3>
+            <p>
+                Assumimos um compromisso com a sustentabilidade em nossas operações. Buscamos reduzir nosso impacto ambiental através de práticas como:
+            </p>
+            <ul>
+                <li>Uso consciente de recursos naturais.</li>
+                <li>Priorização de materiais reciclados e recicláveis.</li>
+                <li>Promoção da educação ambiental entre nossos alunos e colaboradores.</li>
+            </ul>
+            
+
+            <h3>Gestão de Riscos</h3>
+            <p>
+                No Centro Cultural Inglês, reconhecemos a importância de uma gestão de riscos proativa para garantir a sustentabilidade e o sucesso do nosso negócio. Estamos atentos aos seguintes riscos e às medidas de mitigação correspondentes:
+            </p>
+            
+            <ul class="riscos">
+                <li><strong>Concorrência:</strong> O mercado de ensino de idiomas é competitivo. Para mitigar esse risco, investimos na diferenciação dos nossos serviços, na qualidade do ensino.</li>
+                <li><strong>Mudanças Legislativas:</strong> Alterações nas leis e regulamentações podem impactar nossas operações. Monitoramos as mudanças legislativas e buscamos adaptar nossos processos para garantir a conformidade.</li>
+                <li><strong>Instabilidade Econômica:</strong> Crises econômicas podem afetar a demanda por nossos serviços. Diversificamos nossa oferta de cursos e buscamos otimizar nossos custos para enfrentar períodos de instabilidade.</li>
+                <li><strong>Dependência Tecnológica:</strong> A crescente dependência de plataformas online exige atenção especial à segurança da informação e à infraestrutura tecnológica. Implementamos medidas robustas de segurança cibernética e investimos em backups e redundância para garantir a continuidade das nossas operações online.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section-size">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Canal de Denúncias</h2>
+                <p>Acreditamos na importância de um ambiente seguro e transparente. Se você tiver conhecimento de alguma situação que viole nosso código de ética ou qualquer prática ilegal, disponibilizamos nosso canal de denúncias confidencial e imparcial.</p>
+            </div>
+
+            <div class="contact-img">
+                <img src="assets/img/denuncia.svg" alt="Logo de HTML, CSS e JavaScript.">
+            </div>
+            
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Formulário de denúncias</legend>
+
+                    <div class="form-group">
+                        <label for="nome">Apelido</label>
+                        <input type="text" name="nome" id="nome" placeholder="Mantenha-se anônimo">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Insira sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer dark-bg">
+        <p>© 2024 - 2029 | Centro Cultural Inglês | All Rights Reserved</p>
+    </footer>
+
+    <a class="back-to-top" href="#">▶</a>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

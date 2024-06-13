@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Centro Cultural Inglês - Sobre Nós</title>
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Fechar Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Fechar Menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="index.html">Centro Cultural <highlight>Inglês</highlight></a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Nossos Serviços</a></li>
+                    <li><a href="about-us.html">Sobre Nós</a></li>
+                    <li><a href="balanced-scorecard.html">Balanced Scorecard</a></li>
+                    <li><a href="compliance.html">Compliance</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="about-us" class="white-bg section-size">
+        <div class="main-content">
+            <div class="logo-container">
+                <img src="assets/img/cci.svg" alt="Logo do Centro Cultural Inglês" class="about-us-logo">
+            </div>
+            <h2 class="section-title">Centro Cultural <highlight>Inglês</highlight></h2> 
+
+            <p>O Centro Cultural Inglês foi fundado com a missão de oferecer educação de idiomas de alta qualidade, 
+                capacitando alunos a alcançar fluência e confiança no inglês. Desde a nossa fundação, temos nos dedicado 
+                a proporcionar uma experiência de aprendizado envolvente e personalizada, que vai além das salas de aula 
+                tradicionais. Acreditamos que o aprendizado de idiomas é uma ferramenta poderosa para a transformação 
+                pessoal e profissional. Nossa visão é ser referência em ensino de inglês, reconhecida por nossa 
+                abordagem inovadora, qualidade educacional e compromisso com o sucesso dos nossos alunos.</p>
+            
+                <div class="values-container">
+                    <h3>Nossos Valores</h3>
+                    <div class="values-buttons">
+                        <button class="value-button" data-description="Nos dedicamos a fornecer um ensino de alta qualidade, com professores experientes, currículo atualizado e metodologias eficazes.">Excelência Acadêmica</button>
+                        <button class="value-button" data-description="Buscamos constantemente novas tecnologias e abordagens pedagógicas para tornar o aprendizado mais envolvente e eficiente.">Inovação</button>
+                        <button class="value-button" data-description="Acreditamos na força da comunidade e nos esforçamos para criar um ambiente acolhedor e inclusivo onde todos se sintam bem-vindos e respeitados.">Comunidade</button>
+                        <button class="value-button" data-description="A ética e a integridade são pilares fundamentais em todas as nossas ações e decisões, garantindo transparência e confiança em nossas relações.">Ética</button>
+                        <button class="value-button" data-description="Mantemos um compromisso inabalável com a integridade acadêmica e profissional, agindo com honestidade, responsabilidade e respeito em todas as nossas interações.">Integridade</button>
+                    </div>
+                    <p class="value-description" id="value-description" aria-live="polite"></p> 
+                </div>
+
+            <h3 class="partners-title">Parceiros e Colaborações</h3>
+            <p>Valorizamos as parcerias estratégicas com instituições educacionais e culturais, tanto locais quanto 
+                internacionais. Essas colaborações nos permitem oferecer uma ampla gama de oportunidades de 
+                aprendizado e troca cultural para nossos alunos.</p>
+
+            <h3 class="infrastructure-title">Infraestrutura de Hardware</h3>
+            <div class="table-container">
+                <table class="infrastructure-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Descrição</th>
+                            <th>Valor Unitário</th>
+                            <th>Quantidade</th>
+                            <th>Valor Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monitor Full HD</td>
+                            <td>Monitor Dr. Office de 21.5 polegadas, resolução Full HD, frequência de 75Hz, com conexões HDMI e VGA (modelo MDR-0505-21).</td>
+                            <td>R$ 299,00</td>
+                            <td>12</td>
+                            <td>R$ 3.588,00</td>
+                        </tr>
+                        <tr>
+                            <td>Computador Desktop</td>
+                            <td>Computador com processador AMD Ryzen 3 3200G, placa mãe ASUS Prime A320M-K, memória RAM Kingston Fury Beast de 8GB, HD WD Blue de 1TB (interface SATA), fonte EVGA 450W BR 80+ Bronze e gabinete Fortrek SC501BK.</td>
+                            <td>R$ 1.819,04</td>
+                            <td>13</td>
+                            <td>R$ 23.647,52</td>
+                        </tr>
+                        <tr>
+                            <td>Cabo de Rede</td>
+                            <td>Cabo de rede padrão Cat5e na cor azul.</td>
+                            <td>R$ 2,00</td>
+                            <td>60</td>
+                            <td>R$ 120,00</td>
+                        </tr>
+                        <tr>
+                            <td>Conector RJ-45 Macho</td>
+                            <td>Conector RJ-45 macho, padrão para cabos de par trançado, utilizado em redes de computadores para conectar cabos de rede.</td>
+                            <td>R$ 0,29</td>
+                            <td>24</td>
+                            <td>R$ 6,96</td>
+                        </tr>
+                        <tr>
+                            <td>Switch de Rede</td>
+                            <td>Switch Gigabit de mesa TP-Link com 5 portas, suportando velocidades de 10/100/1000Mbps.</td>
+                            <td>R$ 79,99</td>
+                            <td>4</td>
+                            <td>R$ 319,96</td>
+                        </tr>
+                        <tr>
+                            <td>Nobreak</td>
+                            <td>Nobreak Intelbras ATTIV de 600VA, com 4 tomadas, entrada bivolt e saída 120V (modelo 4822202).</td>
+                            <td>R$ 399,99</td>
+                            <td>1</td>
+                            <td>R$ 399,99</td>
+                        </tr>
+                        <tr>
+                            <td>Headset Gamer</td>
+                            <td>Headset Gamer Fortrek na cor preta, multiplataforma (modelo HSL-102).</td>
+                            <td>R$ 32,81</td>
+                            <td>12</td>
+                            <td>R$ 393,72</td>
+                        </tr>
+                        <tr>
+                            <td>Servidor de Armazenamento (Storage)</td>
+                            <td>Servidor de armazenamento (NAS) Asustor modelo AS1104T Drivestor Pro, com 1GB de RAM DDR4.</td>
+                            <td>R$ 3.679,90</td>
+                            <td>1</td>
+                            <td>R$ 3.679,90</td>
+                        </tr>
+                        <tr>
+                            <td>Teclado e Mouse</td>
+                            <td>Conjunto de teclado e mouse Maxprint Essential, padrão ABNT2 (modelo 6013136).</td>
+                            <td>R$ 47,99</td>
+                            <td>12</td>
+                            <td>R$ 575,88</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Valor Total</strong></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>R$ 32.731,93</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="infrastructure-title">Infraestrutura de Software</h3>
+            <div class="table-container">
+                <table class="infrastructure-table">
+                    <thead>
+                        <tr>
+                            <th>Software</th>
+                            <th>Descrição</th>
+                            <th>Valor Unitário</th>
+                            <th>Quantidade</th>
+                            <th>Valor Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Microsoft 365 Business</td>
+                            <td>Conjunto de softwares e serviços de produtividade da Microsoft, com foco em trabalho colaborativo para equipes de diversos tamanhos, além de recursos de segurança.</td>
+                            <td>R$ 49,10</td>
+                            <td>12</td>
+                            <td>R$ 589,20</td>
+                        </tr>
+                        <tr>
+                            <td>DKSoft</td>
+                            <td>Sistema de gestão escolar (DKSoft) desenvolvido para atender às necessidades de escolas profissionalizantes, de informática e idiomas.</td>
+                            <td>R$ 81,00</td>
+                            <td>1</td>
+                            <td>R$ 81,00</td>
+                        </tr>
+                        <tr>
+                            <td>Adobe Creative Cloud</td>
+                            <td>Pacote de aplicativos e serviços da Adobe para design gráfico, edição de vídeo, desenvolvimento web, fotografia e muito mais.</td>
+                            <td>R$ 400,00</td>
+                            <td>1</td>
+                            <td>R$ 400,00</td>
+                        </tr>
+                        <tr>
+                            <td>Internet Fibra Óptica</td>
+                            <td>Plano de internet fibra óptica com velocidade de 600 Mega.</td>
+                            <td>R$ 111,90</td>
+                            <td>1</td>
+                            <td>R$ 111,90</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Valor Total</strong></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>R$ 1.182,10</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer dark-bg">
+        <p>© 2024 - 2029 | Centro Cultural Inglês | All Rights Reserved</p>
+    </footer>
+
+    <a class="back-to-top" href="#">▶</a>
+    <script src="./assets/js/script.js"></script>
+    <script>
+        const valueButtons = document.querySelectorAll('.value-button');
+        const valueDescription = document.getElementById('value-description');
+
+        valueButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const description = button.getAttribute('data-description');
+                valueDescription.textContent = description; 
+            });
+        });
+    </script>
+</body>
+</html>
